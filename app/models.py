@@ -35,7 +35,7 @@ class Category(models.Model):
 #w文章模型
 class Article(models.Model):
     title = models.CharField(max_length=50,verbose_name="文章标题")
-    desc = models.CharField(max_length=50,verbose_name="w文章描述")
+    desc = models.CharField(max_length=50,verbose_name="文章描述")
     content = models.TextField(verbose_name="文章内容")
     click_count = models.IntegerField(default=0,verbose_name="点击次数")
     is_recommend = models.BooleanField(default=False,verbose_name="是否推荐")
