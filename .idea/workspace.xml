@@ -1,7 +1,158 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e313954-8eae-4353-97fc-f8d4786f18b2" name="Default" comment="" />
+    <list default="true" id="9e313954-8eae-4353-97fc-f8d4786f18b2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/.dylibs/libfreetype.6.dylib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/.dylibs/libjpeg.9.dylib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/.dylibs/liblcms2.2.dylib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/.dylibs/liblzma.5.dylib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/.dylibs/libopenjp2.2.1.0.dylib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/.dylibs/libpng16.16.dylib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/.dylibs/libtiff.5.dylib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/.dylibs/libwebp.7.dylib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/.dylibs/libwebpdemux.2.dylib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/.dylibs/libwebpmux.3.dylib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/.dylibs/libz.1.2.11.dylib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/_imaging.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/_imagingcms.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/_imagingft.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/_imagingmath.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/_imagingmorph.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/_imagingtk.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/_webp.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/amaryllis/app/migrations/0001_initial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/bin/createfontdatachunk.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/bin/enhancer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/bin/explode.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/bin/gifmaker.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/bin/painter.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/bin/pilconvert.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/bin/pildriver.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/bin/pilfile.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/bin/pilfont.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/bin/pilprint.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/bin/player.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/bin/thresholder.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/bin/viewer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/OleFileIO_PL.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/BdfFontFile.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/BmpImagePlugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/BufrStubImagePlugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/ContainerIO.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/CurImagePlugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/DcxImagePlugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/DdsImagePlugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/EpsImagePlugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/ExifTags.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/FitsStubImagePlugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/FliImagePlugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/FontFile.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/FpxImagePlugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/FtexImagePlugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/GbrImagePlugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/GdImageFile.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/GifImagePlugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/GimpGradientFile.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/GimpPaletteFile.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/GribStubImagePlugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/Hdf5StubImagePlugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/IcnsImagePlugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/IcoImagePlugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/ImImagePlugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/Image.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/ImageChops.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/ImageCms.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/ImageColor.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/ImageDraw.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/ImageDraw2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/ImageEnhance.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/ImageFile.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/ImageFilter.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/ImageFont.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/ImageGrab.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/ImageMath.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/ImageMode.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/ImageMorph.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/ImageOps.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/ImagePalette.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/ImagePath.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/ImageQt.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/ImageSequence.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/ImageShow.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/ImageStat.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/ImageTk.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/ImageTransform.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/ImageWin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/ImtImagePlugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/IptcImagePlugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/Jpeg2KImagePlugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/JpegImagePlugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/JpegPresets.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/McIdasImagePlugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/MicImagePlugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/MpegImagePlugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/MpoImagePlugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/MspImagePlugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/OleFileIO.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/PSDraw.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/PaletteFile.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/PalmImagePlugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/PcdImagePlugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/PcfFontFile.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/PcxImagePlugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/PdfImagePlugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/PixarImagePlugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/PngImagePlugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/PpmImagePlugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/PsdImagePlugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/PyAccess.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/SgiImagePlugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/SpiderImagePlugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/SunImagePlugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/TarIO.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/TgaImagePlugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/TiffImagePlugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/TiffTags.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/WalImageFile.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/WebPImagePlugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/WmfImagePlugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/XVThumbImagePlugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/XbmImagePlugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/XpmImagePlugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/_binary.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/_tkinter_finder.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/_util.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/features.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/PIL/version.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/Pillow-4.2.1.dist-info/DESCRIPTION.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/Pillow-4.2.1.dist-info/INSTALLER" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/Pillow-4.2.1.dist-info/METADATA" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/Pillow-4.2.1.dist-info/RECORD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/Pillow-4.2.1.dist-info/WHEEL" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/Pillow-4.2.1.dist-info/metadata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/Pillow-4.2.1.dist-info/top_level.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/Pillow-4.2.1.dist-info/zip-safe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/olefile-0.44.dist-info/DESCRIPTION.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/olefile-0.44.dist-info/INSTALLER" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/olefile-0.44.dist-info/METADATA" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/olefile-0.44.dist-info/RECORD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/olefile-0.44.dist-info/WHEEL" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/olefile-0.44.dist-info/metadata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/olefile-0.44.dist-info/top_level.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/olefile/CONTRIBUTORS.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/olefile/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/olefile/README.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/olefile/README.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/olefile/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/lib/python2.7/site-packages/olefile/olefile.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env/pip-selfcheck.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/amaryllis/amaryllis/settings.py" afterPath="$PROJECT_DIR$/amaryllis/amaryllis/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/amaryllis/app/models.py" afterPath="$PROJECT_DIR$/amaryllis/app/models.py" />
+    </list>
     <ignored path="amaryllis.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -41,17 +192,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/amaryllis/amaryllis/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+            <state relative-caret-position="45">
+              <caret line="61" column="59" selection-start-line="61" selection-start-column="59" selection-end-line="61" selection-end-column="59" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/amaryllis/app/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
@@ -63,10 +214,41 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/amaryllis/app/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="705">
+              <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+              <folding>
+                <element signature="e#24#63#0" expanded="true" />
+                <marker date="1506407204000" expanded="true" signature="153:380" ph="..." />
+                <marker date="1506407204000" expanded="true" signature="233:331" ph="..." />
+                <marker date="1506407204000" expanded="true" signature="418:717" ph="..." />
+                <marker date="1506407204000" expanded="true" signature="563:668" ph="..." />
+                <marker date="1506407204000" expanded="true" signature="692:717" ph="..." />
+                <marker date="1506407204000" expanded="true" signature="755:1525" ph="..." />
+                <marker date="1506407204000" expanded="true" signature="1367:1475" ph="..." />
+                <marker date="1506407204000" expanded="true" signature="1560:2061" ph="..." />
+                <marker date="1506407204000" expanded="true" signature="1904:2011" ph="..." />
+                <marker date="1506407204000" expanded="true" signature="2531:2637" ph="..." />
+                <marker date="1506407204000" expanded="true" signature="2661:2687" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/amaryllis/app/models.py" />
+        <option value="$PROJECT_DIR$/amaryllis/amaryllis/settings.py" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -75,10 +257,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1440" />
-    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="877" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -106,6 +286,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -114,9 +295,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="amaryllis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="amaryllis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -126,6 +316,7 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
@@ -370,17 +561,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="23" width="1440" height="877" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13090129" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13233191" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39638555" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -473,11 +664,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/amaryllis/app/views.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amaryllis/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amaryllis/amaryllis/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amaryllis/app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
             <element signature="e#24#63#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amaryllis/app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+            <marker date="1506407204000" expanded="true" signature="153:380" ph="..." />
+            <marker date="1506407204000" expanded="true" signature="233:331" ph="..." />
+            <marker date="1506407204000" expanded="true" signature="418:717" ph="..." />
+            <marker date="1506407204000" expanded="true" signature="563:668" ph="..." />
+            <marker date="1506407204000" expanded="true" signature="692:717" ph="..." />
+            <marker date="1506407204000" expanded="true" signature="755:1525" ph="..." />
+            <marker date="1506407204000" expanded="true" signature="1367:1475" ph="..." />
+            <marker date="1506407204000" expanded="true" signature="1560:2061" ph="..." />
+            <marker date="1506407204000" expanded="true" signature="1904:2011" ph="..." />
+            <marker date="1506407204000" expanded="true" signature="2531:2637" ph="..." />
+            <marker date="1506407204000" expanded="true" signature="2661:2687" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amaryllis/amaryllis/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="61" column="59" selection-start-line="61" selection-start-column="59" selection-end-line="61" selection-end-column="59" />
+          <folding />
         </state>
       </provider>
     </entry>
