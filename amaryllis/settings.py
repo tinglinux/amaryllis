@@ -109,7 +109,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/1.11/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'en-us.UTF-8'
 
 TIME_ZONE = 'UTC'
 
@@ -128,6 +128,11 @@ SITE_DESC = "网站描述"
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
+#文件上传配置
+MEDIA_URL = "/app/uploads/"
+MEDIA_ROOT = os.path.join(BASE_DIR, "app/uploads/")
 
 
 #日志器设置
