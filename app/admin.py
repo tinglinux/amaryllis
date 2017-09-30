@@ -2,13 +2,13 @@
 from __future__ import unicode_literals
 
 from django.contrib import admin
-from .models import Tag,Article,Category
+from .models import Tag,Article,Category,Links
 # Register your models here.
 
 
 #自定义文章管理样式
 class ArticleAdmin(admin.ModelAdmin):
-    fields = ['title','desc','content','tag']
+    fields = ['title','desc','content','tag','category']
     list_display = ['title','desc','date_publish']
 
     class Media:
@@ -21,3 +21,4 @@ class ArticleAdmin(admin.ModelAdmin):
 admin.site.register(Tag)
 admin.site.register(Article,ArticleAdmin)
 admin.site.register(Category)
+admin.site.register(Links)

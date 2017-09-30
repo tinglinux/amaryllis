@@ -2003,3 +2003,39 @@ NoReverseMatch: Reverse for 'app/archive' not found. 'app/archive' is not a vali
 ERROR global name 'date_publish__icontains' is not defined
 ERROR global name 'date_publish__icontains' is not defined
 ERROR unsupported operand type(s) for +: 'NoneType' and 'unicode'
+ERROR Internal Server Error: /admin/app/category/add/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/site-packages/django/contrib/admin/options.py", line 551, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1508, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/usr/local/lib/python2.7/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/usr/local/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1408, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1452, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "/usr/local/lib/python2.7/site-packages/django/contrib/admin/options.py", line 724, in log_addition
+    object_repr=force_text(object),
+  File "/usr/local/lib/python2.7/site-packages/django/utils/encoding.py", line 80, in force_text
+    s = six.text_type(bytes(s), encoding, errors)
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128)
+WARNING Not Found: /index.html
+WARNING Not Found: /index.html
+WARNING Not Found: /favicon.ico
