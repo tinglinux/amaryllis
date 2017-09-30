@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
-
+from collections import Counter
 from django.db import models
 
 # Create your models here.
@@ -31,6 +31,21 @@ class Category(models.Model):
     def __str__(self):
         return self.name
 
+#文章model管理器
+#进行文章按月归档，并统计每月文章数量
+class ArticleManager(models.Manager):
+    def data_article(self):
+        article_date_publish = []
+        article_archive_list = {}
+        date_list = self.values('date_publish')
+        for date in date_list:
+            date = date['date_publish'].strftime('%Y%m')
+            article_date_publish.append(date)
+
+        article_archive_list = dict(Counter(article_date_publish))
+        return article_archive_list
+
+
 
 #w文章模型
 class Article(models.Model):
@@ -43,6 +58,8 @@ class Article(models.Model):
 #    user = models.ForeignKey(User,verbose_name="用户")
     category = models.ForeignKey(Category,blank=True,null=True,verbose_name="分类")
     tag = models.ManyToManyField(Tag,verbose_name="标签")
+
+    objects = ArticleManager()
 
     class Meta:
         verbose_name = '文章'

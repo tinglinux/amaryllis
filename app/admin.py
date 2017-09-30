@@ -8,7 +8,7 @@ from .models import Tag,Article,Category
 
 #自定义文章管理样式
 class ArticleAdmin(admin.ModelAdmin):
-    fields = ['title','desc','content']
+    fields = ['title','desc','content','tag']
     list_display = ['title','desc','date_publish']
 
     class Media:
