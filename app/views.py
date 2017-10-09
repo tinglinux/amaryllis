@@ -11,6 +11,7 @@ from django.core.paginator import Paginator,EmptyPage,InvalidPage,PageNotAnInteg
 logger = logging.getLogger(__name__)
 
 def global_settings(request):
+    SITE_URL = settings.SITE_URL
     SITE_NAME = settings.SITE_NAME
     SITE_TITLE = settings.SITE_TITLE
     SITE_DESC = settings.SITE_DESC
@@ -21,6 +22,7 @@ def global_settings(request):
     #logger.error("global setting ")
     return locals()
 
+#首页
 def index(request):
     #分类信息获取
     try:
@@ -36,6 +38,7 @@ def index(request):
     #最新文章数据
     return render(request,'app/index.html',locals())
 
+#归档页面
 def archive(request):
     try:
         year = request.GET.get('year',None)
@@ -54,3 +57,17 @@ def getpage(request,article_list):
     except (EmptyPage, InvalidPage, PageNotAnInteger):
         article_list = paginator.page(1)
     return article_list
+
+def article(request):
+    try:
+        # 获取文章id
+        id = request.GET.get('id', None)
+        try:
+            # 获取文章信息
+            article = Article.objects.get(pk=id)
+        except Article.DoesNotExist:
+            return render(request, 'failure.html', {'reason': '没有找到对应的文章'})
+    except Exception as e:
+        print e
+        logger.error(e)
+    return render(request, 'app/article.html', locals())

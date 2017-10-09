@@ -125,6 +125,7 @@ USE_TZ = True
 SITE_NAME = "网站名"
 SITE_TITLE = "网站标题"
 SITE_DESC = "网站描述"
+SITE_URL = 'http://localhost:8000/'
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
