@@ -1,0 +1,9 @@
+{% extends 'app/base.html' %}
+{% load staticfiles %}
+{% block left_content %}
+    {% include 'app/ad.html' %}
+    <div class="topnews">
+      <h2>{{ reason }}</h2>
+    </div>
+    {% include 'app/pagination.html' %}
+{% endblock %}

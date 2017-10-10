@@ -1,8 +1,11 @@
 {% extends 'app/base.html' %}
 {% load staticfiles %}
+{% load myfilter %}
 
 {% block left_content %}
     <div class="postdate">
+        <div class="month">{{ article.date_publish | month_to_upper }}</div>
+        <div class="date">{{ article.date_publish | date:'d' }}</div>
     </div>
     <div class="title">
         <h2><a href="" rel="bookmark" title="{{ article.title }}">{{ article.title }}</a></h2>

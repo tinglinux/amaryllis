@@ -71,3 +71,40 @@ def article(request):
         print e
         logger.error(e)
     return render(request, 'app/article.html', locals())
+
+def category(request):
+    try:
+        # 获取分类类型id
+        cid = request.GET.get('cid', None)
+        try:
+            #获取分类信息
+            category = Category.objects.filter(pk=cid).values()[0]
+            print category
+        except Category.DoesNotExist:
+            return render(request, 'failure.html', {'reason': '该分类不存在'})
+        #获取分类文章
+        article_list = Article.objects.filter(category_id = cid)
+        article_list = getpage(request,article_list)
+    except Exception as e:
+        print e
+        logger.error(e)
+    return render(request, 'app/category.html', locals())
+
+def tag(request):
+    try:
+        # 获取分类类型id
+        tid = request.GET.get('tid', None)
+        print tid
+        try:
+            #获取分类信息
+            tag = Tag.objects.filter(pk=tid).values()[0]
+        except Tag.DoesNotExist:
+            return render(request, 'failure.html', {'reason': '该标签文章不存在'})
+        #获取分类文章
+        article_list = Article.objects.filter(tag = tid)
+        print article_list
+        article_list = getpage(request,article_list)
+    except Exception as e:
+        print e
+        logger.error(e)
+    return render(request, 'app/tag.html', locals())
