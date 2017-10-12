@@ -25,7 +25,7 @@
   </div>
   <nav id="topnav" class="f_r">
     <ul>
-        <a href="/">首页</a>
+      <a href="/">首页</a>
         {% for category in category_list %}
       <a href="{% url 'app:category' %}?cid={{ category.id }}">{{ category }}</a>
         {% endfor %}
@@ -144,7 +144,7 @@
 </article>
 
 <footer>
-  <p class="ft-copyright">某某某的个人博客 蜀ICP备xxxxxxx号-1</p>
+  <p class="ft-copyright">{{ SITE_NAME }}的个人站点 渝ICP备736382822号-1</p>
   <div id="tbox"> <a id="togbook" href="/"></a> <a id="gotop" href="javascript:void(0)"></a> </div>
 </footer>
 </body>

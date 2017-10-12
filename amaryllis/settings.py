@@ -122,9 +122,9 @@ USE_L10N = True
 USE_TZ = True
 
 #网站自定义设置
-SITE_NAME = "网站名"
-SITE_TITLE = "网站标题"
-SITE_DESC = "网站描述"
+SITE_NAME = "在路上"
+SITE_TITLE = "amaryllis"
+SITE_DESC = "梦虽虚幻,却是自己的梦想；位虽低微,却是自己的岗位；屋虽简陋,却是自己的家；志虽渺小,却是自己的追求。"
 SITE_URL = 'http://localhost:8000/'
 
 # Static files (CSS, JavaScript, Images)
