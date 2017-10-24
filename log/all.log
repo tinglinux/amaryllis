@@ -3,3 +3,304 @@ WARNING Not Found: /favicon.ico
 WARNING Not Found: /favicon.ico
 WARNING Not Found: /favicon.ico
 WARNING Not Found: /favicon.ico
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /favicon.ico
+ERROR Internal Server Error: /category/
+Traceback (most recent call last):
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jiangting/PycharmProjects/amaryllis/app/views.py", line 91, in category
+    return render(request, 'app/category.html', locals())
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/backends/django.py", line 66, in render
+    return self.template.render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 207, in render
+    return self._render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/loader_tags.py", line 177, in render
+    return compiled_parent._render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/loader_tags.py", line 72, in render
+    result = block.nodelist.render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/defaulttags.py", line 216, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 1040, in render
+    output = self.filter_expression.resolve(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 708, in resolve
+    obj = self.var.resolve(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 849, in resolve
+    value = self._resolve_lookup(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 911, in _resolve_lookup
+    current = current()
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/db/models/query.py", line 364, in count
+    return self.query.get_count(using=self.db)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/db/models/sql/query.py", line 499, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/db/models/sql/query.py", line 480, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 894, in execute_sql
+    raise original_exception
+ProgrammingError: (1146, "Table 'amaryllis.app_comment' doesn't exist")
+ERROR Internal Server Error: /category/
+Traceback (most recent call last):
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jiangting/PycharmProjects/amaryllis/app/views.py", line 91, in category
+    return render(request, 'app/category.html', locals())
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/backends/django.py", line 66, in render
+    return self.template.render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 207, in render
+    return self._render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/loader_tags.py", line 177, in render
+    return compiled_parent._render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/loader_tags.py", line 72, in render
+    result = block.nodelist.render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/defaulttags.py", line 216, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 1040, in render
+    output = self.filter_expression.resolve(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 708, in resolve
+    obj = self.var.resolve(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 849, in resolve
+    value = self._resolve_lookup(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 911, in _resolve_lookup
+    current = current()
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/db/models/query.py", line 364, in count
+    return self.query.get_count(using=self.db)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/db/models/sql/query.py", line 499, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/db/models/sql/query.py", line 480, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 894, in execute_sql
+    raise original_exception
+ProgrammingError: (1146, "Table 'amaryllis.app_comment' doesn't exist")
+ERROR Internal Server Error: /tag/
+Traceback (most recent call last):
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jiangting/PycharmProjects/amaryllis/app/views.py", line 110, in tag
+    return render(request, 'app/tag.html', locals())
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/backends/django.py", line 66, in render
+    return self.template.render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 207, in render
+    return self._render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/loader_tags.py", line 177, in render
+    return compiled_parent._render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/loader_tags.py", line 72, in render
+    result = block.nodelist.render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/defaulttags.py", line 216, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 1040, in render
+    output = self.filter_expression.resolve(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 708, in resolve
+    obj = self.var.resolve(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 849, in resolve
+    value = self._resolve_lookup(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 911, in _resolve_lookup
+    current = current()
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/db/models/query.py", line 364, in count
+    return self.query.get_count(using=self.db)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/db/models/sql/query.py", line 499, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/db/models/sql/query.py", line 480, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 894, in execute_sql
+    raise original_exception
+ProgrammingError: (1146, "Table 'amaryllis.app_comment' doesn't exist")
+ERROR Internal Server Error: /tag/
+Traceback (most recent call last):
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jiangting/PycharmProjects/amaryllis/app/views.py", line 110, in tag
+    return render(request, 'app/tag.html', locals())
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/backends/django.py", line 66, in render
+    return self.template.render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 207, in render
+    return self._render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/loader_tags.py", line 177, in render
+    return compiled_parent._render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/loader_tags.py", line 72, in render
+    result = block.nodelist.render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/defaulttags.py", line 216, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 1040, in render
+    output = self.filter_expression.resolve(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 708, in resolve
+    obj = self.var.resolve(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 849, in resolve
+    value = self._resolve_lookup(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 911, in _resolve_lookup
+    current = current()
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/db/models/query.py", line 364, in count
+    return self.query.get_count(using=self.db)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/db/models/sql/query.py", line 499, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/db/models/sql/query.py", line 480, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 894, in execute_sql
+    raise original_exception
+ProgrammingError: (1146, "Table 'amaryllis.app_comment' doesn't exist")
+WARNING Not Found: /swagger
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /favicon.ico
+ERROR Internal Server Error: /category/
+Traceback (most recent call last):
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jiangting/PycharmProjects/amaryllis/app/views.py", line 91, in category
+    return render(request, 'app/category.html', locals())
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/backends/django.py", line 66, in render
+    return self.template.render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 207, in render
+    return self._render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/loader_tags.py", line 177, in render
+    return compiled_parent._render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/loader_tags.py", line 72, in render
+    result = block.nodelist.render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/defaulttags.py", line 216, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 1040, in render
+    output = self.filter_expression.resolve(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 708, in resolve
+    obj = self.var.resolve(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 849, in resolve
+    value = self._resolve_lookup(context)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/template/base.py", line 911, in _resolve_lookup
+    current = current()
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/db/models/query.py", line 364, in count
+    return self.query.get_count(using=self.db)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/db/models/sql/query.py", line 499, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/db/models/sql/query.py", line 480, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/Users/jiangting/PycharmProjects/venv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 894, in execute_sql
+    raise original_exception
+ProgrammingError: (1146, "Table 'amaryllis.app_comment' doesn't exist")
+WARNING Not Found: /favicon.ico

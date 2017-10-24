@@ -4,5 +4,11 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="jdk" jdkName="Python 2.7.14 virtualenv at ~/PycharmProjects/venv" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="blog_project" />
+    <orderEntry type="module" module-name="mysite1" />
+    <orderEntry type="module" module-name="user_manager" />
+    <orderEntry type="module" module-name="grunniens" />
+    <orderEntry type="module" module-name="grunniens" />
+    <orderEntry type="module" module-name="untitled" />
   </component>
 </module>
